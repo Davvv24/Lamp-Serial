@@ -60,16 +60,6 @@ s.baudrate = 9600
 s.port = 'COM4'
 
 s.open()
-
-# while True:  # making a loop
-#     # used try so that if user pressed other than the given key error will not be shown
-    
-#     if(keyboard.is_pressed(key)):
-#         kp(key)
-    
-#     if(keyboard.is_pressed('o')):
-#         break;
-    
     
 #Keyboard input
 keyboard.hook(print_pressed_keys)
